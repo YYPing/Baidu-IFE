@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>任务五：零基础HTML及CSS编码（二）</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+    <header>
+        <div class="header-box">
+            <img src="img/logo.png" alt="logo" height="60">
+            <nav>
+                <ul>
+                    <li> <a href="#"> 导航链接一 </a> </li>
+                    <li> <a href="#"> 导航链接二 </a> </li>
+                    <li> <a href="#"> 导航链接三 </a> </li>
+                    <li> <a href="#"> 导航链接四 </a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<div class="outer">
+    <aside class="">
+        <h2> 这里以后是一个侧栏，这是侧栏的标题 </h2>
+        <form method="post" action="#">
+        <div class="left">
+            <label class=" input" for="email" id="label_email"> 请输入邮箱地址： </label>
+
+            <label class=" input" for="psd" id="label_psd" style="margin-top: 50px;"> 请输入密码： </label>
+
+            <label class=" input" for="comfirm_psd" id="label_confirm_psd"> 请重复输入密码： </label>
+
+            <label class=" input" id="label_sex_title" style="margin-top: 50px;> 性别： </label>
+
+            <label class=" input" for="city" id="label_city"> 城市： </label>
+
+            <label class=" input" id="label_hobby"> 爱好： </label>
+
+            <label class=" input" for="des" id="lable_des"> 个人描述： </label>
+
+        </div>
+        <div class="right">
+            <input class="right-in input" type="text" id="email" name="email" style="width:130px">
+            <label class="right-in txt" class="alert"> 邮箱地址请按要求格式输入 </label>
+            <input class="right-in input" type="password" id="psd" name="psd" style="width:130px">
+            <input class="right-in input" type="password" id="comfirm_psd" name="comfirm_psd" style="width:130px">
+            <label class="right-in txt" class="alert"> 密码请为6-16位英文数字 </label>
+            <div class="right-in input" class="sex">
+                <input type="radio" name="sex" id="male" checked>
+                <label for="male" class="label_sex">男</label>
+                <input type="radio" name="sex" id="female">
+                <label for="female" class="label_sex">女</label>
+            </div>
+            <select class="right-in input" id="city" name="city" style="width:50px">
+                <option> 天津 </option>
+                <option selected> 北京 </option>
+                <option> 上海 </option>
+            </select>
+            <div class="right-in input" class="checkbox">
+                <input type="checkbox" id="sports" name="sports"> 运动
+                <input type="checkbox" id="art" name="art"> 艺术
+                <input type="checkbox" id="science" name="science"> 科学
+            </div>
+
+            <textarea class="right-in input" id="des">
+            </textarea>
+        </div>
+            <button type="submit"> 确认提交 </button>
+        </form>
+    </aside>
+    <article class="box">
+        <h2> 文章一级标题 </h2>
+        <h3> 文章二级标题 </h3>
+        <span> 文章作者：YYing 文章发表时间：2017.3.1 </span>
+        <p> 这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落,
+            这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
+            这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
+            这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com/task/all"> 这里有一个链接链接到http://ife.baidu.com </a>这是一个很长很长的段落，这是一个很长很长的段落，<strong> 这里有个粗体字 </strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。
+        </p>
+        <img class="article_img" src="img/img.png" alt="默认图片" width="290">
+        <p>
+            这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
+            这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong> 这里有个粗体字 </strong>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com/task/all" target="_blank"> 这里有一个链接点击后打开新窗口链接到http://ife.baidu.com </a>，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。
+        </p>
+    </article>
+
+    <article class="box">
+        <h2> 另一篇文章一级标题 </h2>
+        <h3> 文章二级标题 </h3>
+        <span> 文章作者：YYing 文章发表时间：2017.3.1 </span>
+        <p> 这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落,
+            这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
+            这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
+            这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com/task/all"> 这里有一个链接链接到http://ife.baidu.com </a>这是一个很长很长的段落，这是一个很长很长的段落，<strong> 这里有个粗体字 </strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。
+        </p>
+        <img class="article_img" src="img/img.png" alt="默认图片" width="290">
+        <ul>
+            <li> 列表项目一 </li>
+            <li> 列表项目二 </li>
+            <li> 列表项目三 </li>
+        </ul>
+
+    </article>
+
+    <article class="box">
+        <h2> 图片 </h2>
+        <figure>
+            <figcaption> 好看的图片 </figcaption>
+            <img src="img/img.png" alt="默认图片" width="100">
+        </figure>
+        <figure>
+            <figcaption> 好看的图片 </figcaption>
+            <img src="img/img.png" alt="默认图片" width="100">
+        </figure>
+        <figure>
+            <figcaption> 好看的图片 </figcaption>
+            <img src="img/img.png" alt="默认图片" width="100">
+        </figure>
+        <figure>
+            <figcaption> 好看的图片 </figcaption>
+            <img src="img/img.png" alt="默认图片" width="100">
+        </figure>
+        <figure>
+            <figcaption> 好看的图片 </figcaption>
+            <img src="img/img.png" alt="默认图片" width="100">
+        </figure>
+        <figure>
+            <figcaption> 好看的图片 </figcaption>
+            <img src="img/img.png" alt="默认图片" width="100">
+        </figure>
+        <figure>
+            <figcaption> 好看的图片 </figcaption>
+            <img src="img/img.png" alt="默认图片" width="100">
+        </figure>
+        <figure>
+            <figcaption> 好看的图片 </figcaption>
+            <img src="img/img.png" alt="默认图片" width="100">
+        </figure>
+        <figure>
+            <figcaption> 好看的图片 </figcaption>
+            <img src="img/img.png" alt="默认图片" width="100">
+        </figure>
+        <figure>
+            <figcaption> 好看的图片 </figcaption>
+            <img src="img/img.png" alt="默认图片" width="100">
+        </figure>
+        <div class="clear"></div>
+    </article>
+
+    <article class="box">
+        <h2> 最后文章一级标题 </h2>
+        <h3> 文章二级标题 </h3>
+        <span> 文章作者：YYing 文章发表时间：2017.3.1 </span>
+        <ol>
+            <li> 排名1 </li>
+            <li> 排名2 </li>
+            <li> 排名3 </li>
+        </ol>
+        <table border="0">
+            <caption style="text-align: left;"> 下面是一个表格，给表格加了一个 border="1"，好让你看出是一个表格 </caption>
+            <tr class="black">
+                <th class="p40"> 表头 </th>   <th class="p40"> 表头 </th>   <th class="p20"> 表头 </th>
+            </tr>
+            <tr>
+                <td> 表内容单元格 </td>   <td> 表内容单元格 </td>   <td> <a href="#"> 操作 </a> </td>
+            </tr>
+            <tr>
+                <td> 表内容单元格 </td>   <td> 表内容单元格 </td>   <td> <a href="#"> 操作 </a> </td>
+            </tr>
+            <tr>
+                <td> 表内容单元格 </td>   <td> 表内容单元格 </td>   <td> <a href="#"> 操作 </a> </td>
+            </tr>
+            <tr>
+                <td> 表内容单元格 </td>   <td> 表内容单元格 </td>   <td> <a href="#"> 操作 </a> </td>
+            </tr>
+            <tr class="gray">
+                <td id="total"> <b>总计</b> </td>
+                <td colspan="2" id="result"> <b>1000</b> </td>
+            </tr>
+        </table>
+    </article>
+</div>
+    <footer>
+        <p> 版权所有©️ </p>
+    </footer>
+</body>
+</html>

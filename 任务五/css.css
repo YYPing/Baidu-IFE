@@ -1,0 +1,180 @@
+*{
+    margin:0px;
+    padding:0;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+body{
+    background: #000;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 16px;
+    margin-top: 20px;
+    color:#666;
+}
+span{
+    font-size: 12px;
+    margin-top: 20px;
+    line-height: 40px;
+    color:#666;
+}
+p{
+    line-height: 28px;
+    text-indent:25px
+}
+.clear{
+    clear: both;
+}
+.outer{
+    margin:0 auto;
+    padding:20px;
+    margin-top:0;
+    max-width: 1200px;
+    background: #dedede;
+}
+header{
+    background: #333333;
+    padding: 0 20px;
+    width:100%;
+}
+header .header-box{
+    margin:0 auto;
+    max-width: 1200px;
+}
+header a:link {
+    text-decoration: none;
+    color: #fff;
+}
+header a:visited {
+    text-decoration: none;
+}
+header a:hover {
+    color: #d6d6d6;
+}
+header nav{
+    float: right;
+    height:60px;
+    margin-top:15px;
+}
+header nav li{
+    float: left;
+    margin:5px 10px;
+}
+
+.box{
+    background:#fff;
+    padding:20px;
+    margin-bottom:20px;
+    margin-right:420px;
+}
+aside{
+    float: right;
+    width:360px;
+    padding:20px;
+    background:#fff;
+}
+aside h2{
+    border-left: 3px solid #9b9b9b;
+    padding-left: 15px;
+}
+aside form{
+    margin-top:20px;
+}
+aside form .left{
+    text-align:right;
+    float: left;
+    width:120px;
+}
+aside form .left label{
+    // margin-bottom:10px;
+    float: right;
+    // display: inline;
+    width:100%;
+    // display: block;
+}
+aside form .right{
+    float: right;
+    width:210px;
+}
+.txt{
+    margin-bottom:10px;
+    margin-top:10px;
+    color:#666;
+    font-size: 12px;
+}
+.input{
+    margin-top: 10px;
+    width:100%;
+
+}
+aside form .right .right-in{
+    float: left;
+    width:210px;
+}
+aside form button{
+    margin-top: 10px;
+    font-size:16px;
+    color:#fff;
+    width:100%;
+    padding:10px;
+    background:blue;
+    border:0px;
+    border-radius: 5px;
+
+}
+article li{
+    list-style-type:none;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+figure{
+    border:1px solid #ddd;
+    padding:10px;
+    margin: 20px 20px 0 0;
+    width:100px;
+    float: left;
+}
+ol{
+    list-style-type:none;
+    counter-reset:sectioncounter;
+    width:200px;
+}
+ol li:before {
+    content:counter(sectioncounter) "、";
+    counter-increment:sectioncounter;
+ }
+table{
+    width: 100%;
+}
+table tr{
+    height: 10px;
+}
+table .black{
+    background: #000;
+    color:#fff;
+    text-align:left;
+    height: 10px;
+}
+table .gray{
+    background: gray;
+}
+.p40{
+    width:40%;
+}
+.p20{
+    width:20%;
+}
+table td,th{
+    padding:2px 10px;
+}
+footer{
+    color: #fff;
+    margin:0 auto;
+    text-align: center;
+    padding:30px 0;
+}

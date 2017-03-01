@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>任务四：定位和居中问题</title>
+    <style type="text/css" media="screen">
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .floater{
+            position:relative;
+            height:50%;
+            float: left;
+            margin-bottom:-100px;
+        }
+        .outer{
+            position: relative;
+            clear: left;
+            margin:0 auto;
+            background:#ccc;
+            height:200px;
+            width:400px;
+            overflow:hidden;
+        }
+        .rounded{
+            background:#fc0;
+            border-radius:50px;
+            height:100px;
+            width:100px;
+        }
+        .left-top{
+            position:relative;
+            left:-50px;
+            top:-50px;
+        }
+        .right-bottom{
+            position:relative;
+            right:-350px;
+            bottom:-50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="floater"></div>
+    <div class="outer">
+        <div class="left-top rounded"></div>
+        <div class="right-bottom rounded"></div>
+    </div>
+</body>
+</html>
