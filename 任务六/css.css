@@ -2,6 +2,7 @@
     margin: 0;
     padding:0;
     font-size:12px;
+    font-family: "微软雅黑"
 }
 .right{
     float: right;
@@ -81,7 +82,6 @@ header{
     width:132px;
 }
 .main .up .up_left .one,.two,.three{
-    // width: 23%;
     float: left;
     color:#767777;
     margin:20px 15px 0 0;
@@ -124,22 +124,37 @@ header{
     width: 203px;
     padding-top:10px;
 }
+.main .up .up_right h2:first-letter{
+    // text-decoration: underline;
+    font-size: 32px;
+    font-weight:bold;
+}
 .main .up .up_right h2{
+    text-transform:uppercase;
     text-decoration: underline;
     font-size: 24px;
+    font-weight:normal;
 }
 .main .up .up_right p{
     font-size: 12px;
     color:#676767;
+}
+.main .up .up_right p{
 }
 .main .up .up_right .num{
     font-size: 116px;
     color:#75b86b;
     margin-top:15px;
 }
+.main .up .up_right .num span{
+    font-style: italic;
+    font-size: 116px;
+    color:#75b86b;
+    margin-top:15px;
+    margin-left: -20px
+}
 .main .up .up_right .aside_down{
     position: absolute;
-    /* bottom: 0px; */
 }
 .main .up .up_right .aside_down p{
     color:#cc8091;
@@ -166,32 +181,28 @@ header{
 }
 .down .down_left{
     width:410px;
+    float:left;
 }
 .down .down_left h1 span{
     color:#f5e327;
     font-size: 72px;
     font-style: italic;
-    // font-weight:bold;
     margin-right: 10px;
 }
 .down .down_left h1{
     color:#11456b;
-    font-size: 42px;
-    // font-weight:bold;
-    line-height: 16px;
-    line-height:42px;
+    font-size: 38px;
+    line-height: 1;
 }
 .down .down_left h2{
     color:#11456b;
     font-size: 33px;
-    // font-weight:bold;
-    line-height: 43px;
+    line-height: 1;
     margin-top: 10px;
-
 }
 .down .down_left hr{
     border:1px solid #11456b;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .down .down_left .txt span{
     color:#f5e327;
@@ -199,17 +210,131 @@ header{
     float: left;
 }
 .down .down_left .txt p{
-    margin-top:20px;
-    line-height:1.5;
+    margin-top:10px;
+}
+.down .down_left .txt p:first-letter{
+    color:#f5e327;
+    font-size: 70px;
+    float: left;
 }
 .down .down_left .txt img{
     float: right;
-    margin:20px;
+    margin:10px;
 }
+
+.down_right{
+    width:458px;
+    height: 605px;
+    float: right;
+}
+.down_right_up_img1{
+    position:absolute;
+    margin-top: 197px;
+    z-index:1;
+}
+.down_right_up_txt{
+    position:absolute;
+    margin-top: 197px;
+    z-index:2;
+    width:458px;
+    height:60px;
+}
+.down_right_up_txt h3{
+    border-left:3px solid #72b16a;
+    font-size: 26px;
+    color: #fff;
+    margin:8px 20px;
+    margin-top: 15px;
+    padding-left: 12px;
+}
+.down_right_up_txt h3 i{
+    color: #72b16a;
+    font-size: 12px;
+    font-weight:normal;
+    margin-left:8px;
+}
+.down_right_down{
+    margin-top: 20px;
+    height:315px;
+    background:#eeedd6;
+}
+.down_right_down .li{
+    padding:20px 30px;
+}
+.down_right_down .li p{
+    margin-top:22px;
+}
+.down_right_down .li p span{
+    width:10px;
+    height:9px;
+    background: url("img/san.png") no-repeat center;
+    margin-right:10px;
+}
+.down_right_down .time{
+    background: #d45d5c;
+    color: #fff;
+    height:140px;
+    width:240px;
+    padding:10px;
+    float: left;
+}
+.down_right_down .time span{
+    font-size:110px;
+    float: left;
+}
+.down_right_down .time .time_p{
+    float: left;
+    border-left:2px solid #fff;
+    width:166px;
+    height:86px;
+    padding-left:5px;
+    margin-top:20px;
+}
+.down_right_down .time .time_p p{
+    margin:0;
+    margin-bottom:5px;
+}
+
+.down_right_down .time .time_p .time_p21{
+    font-size: 21px;
+}
+.down_right_down .time .time_p .time_p21 i{
+    font-size: 18px;
+}
+.clear{
+    clear: both;
+}
+.down_right_down .wold{
+    float: left;
+    margin-top:10px;
+}
+blockquote {
+    width: 160px;
+    height:135px;
+    background: url(img/bottom.png) no-repeat 125px 110px;
+    padding-left: 18px;
+    text-indent:12px;
+    line-height:21px;
+    margin:0;
+}
+blockquote:first-letter {
+    background: url(img/top.png) no-repeat left bottom;
+    padding-left: 26px;
+    padding-top: 22px;
+    margin-left:-10px;
+}
+
+
+
 footer{
+    top:1230px;
+    position: relative;
     width: 892px;
     border-top:2px solid #938e8c;
 }
 footer .date{
     margin-top:0px;
+}
+.clear{
+    clear: both;
 }
