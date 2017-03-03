@@ -1,0 +1,245 @@
+ /* 公用样式 */
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+.main{
+    width: 1280px;
+    margin: 0 auto;
+    // position: absolute;
+
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+a:link{
+    text-decoration:none;
+}
+a:visited{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:none;
+}
+a:active{
+    text-decoration:none;
+}
+.clearfix:before, .container:after {
+    content: "";
+    display: table;
+}
+.clearfix{
+    clear: both;
+    #
+}
+.clearfix:after {
+    clear: both;
+}
+    /* IE 6/7 */
+.clearfix {
+    zoom: 1;
+    }
+ /* 公用样式 */
+
+
+
+
+ /* 导航 */
+.header{
+    height: 56px;
+    background: #fff;
+}
+.header .logo{
+    float: left;
+    margin-top: 13px;
+    margin-left: 60px;
+}
+.header .logo img{
+    width: 31px;
+    height:31px;
+}
+.header .logo span{
+    vertical-align: top;
+
+    color: #393a3a;
+    font-size:21px;
+}
+.header nav{
+    float: right;
+    margin-top: 16px;
+    margin-right: 60px;
+}
+.header nav ul li{
+    float: left;
+    color: #787b83;
+    margin-right: 45px;
+    // height:56px;
+}
+.header nav ul li a{
+    color: #787b83;
+    // text-align: top;
+    vertical-align: top;
+    // line-height:56px;
+}
+.header nav ul li a:hover{
+    color: #e74f4d;
+    padding-bottom:11px;
+    border-bottom: 3px solid #e74f4d;
+}
+.header nav ul li a img{
+    margin-right: 5px;
+    // padding-top: 5px;
+    // height:19px;
+}
+ /* 导航 */
+
+
+ /* banner */
+.banner{
+    height:690px;
+    background:url(img/banner50.png);
+     // opacity:0.5;
+    // position:relative;
+
+    // margin-top:56px;
+    // margin: 0 auto;
+}
+.banner .text{
+    position:absolute;
+    z-index: 1;
+    margin-left: 117px;
+    top:25%;
+}
+.banner .text span{
+    color: #fff;
+    font-size:60px;
+    font-weight: bold;
+}
+.banner .text p{
+    color: #fff;
+    font-size:21px;
+}
+.banner .text a{
+    color: #fff;
+    font-size:30px;
+    margin-top:60px;
+    background: #e74f4d;
+    width:330px;
+    height:65px;
+    display: block;
+    text-align:center;
+    // vertical-aligen:middle;
+    line-height: 65px;
+}
+/* banner */
+
+
+
+/* 第一层 */
+.one{
+}
+.one .q,.w,.e,.r{
+    width:25%;
+    float: left;
+    height:250px;
+}
+.one .q,.w,.e,.r {
+    text-align:center;
+}
+.one img{
+    margin-top: 45px;
+}
+.one p{
+    padding-top: 46px;
+    width:154px;
+    margin: 0 auto;
+}
+.one .hr{
+    height:50px;
+    width:2px;
+    background:#aaaaab;
+    float: left;
+    position:absolute;
+    z-index:1;
+    margin-top:-40px
+}
+/* 第一层 */
+
+
+
+
+/* 第二层 */
+.two{
+    text-align:center;
+    font-size:54px;
+    background:#ededec;
+    height:360px;
+}
+.two img{
+    margin-top: 90px;
+}
+.two p{
+    font-size:54px;
+    color:#a1a1a1;
+    margin-top: 48px;
+}
+/* 第二层 */
+
+
+
+
+
+/* 第三层 */
+.three{
+    height:340px;
+    background:url(img/three50.png);
+    text-align:center;
+    margin-top: 0;
+     // opacity:0.5;
+    // position:relative;
+
+    // margin-top:56px;
+    // margin: 0 auto;
+}
+.three .main{
+    background:url(img/three.png);
+    height:288px;
+    padding-top: 52px;
+}
+.three .text{
+    margin: 0 auto;
+    // margin-top: 52px;
+
+}
+.three span{
+    // display: block;
+    font-size:21px;
+    color: #fff;
+    // padding-top: 52px;
+}
+.three i{
+    display: block;
+    margin: 0 auto;
+    width:30px;
+    height:3px;
+    background: #fff;
+    margin-top: 10px;
+}
+.three p{
+    // display: block;
+    font-size:12px;
+    color: #fff;
+    margin-top:20px;
+}
+.three .seach{
+    margin: 0 auto;
+    width:1028px;
+    height:36px;
+    margin-top: 52px;
+    background:#000;
+}
