@@ -1,4 +1,4 @@
- /* 公用样式 */
+  /* 公用样式 */
 *{
     padding: 0;
     margin: 0;
@@ -141,8 +141,6 @@ a:active{
 
 
 /* 第一层 */
-.one{
-}
 .one .q,.w,.e,.r{
     width:25%;
     float: left;
@@ -213,6 +211,7 @@ a:active{
 }
 .three .text{
     margin: 0 auto;
+    margin-bottom: 52px;
     // margin-top: 52px;
 
 }
@@ -241,5 +240,72 @@ a:active{
     width:1028px;
     height:36px;
     margin-top: 52px;
-    background:#000;
+    // background:#000;
+}
+.three .seach select,button{
+    width: 236px;
+    height: 36px;
+    margin-right:30px;
+}
+.three .seach select{
+    padding: auto 10px;
+    text-indent: 20px;
+    border: 1px solid #fff;
+}
+.three .seach select:hover{
+    border: 1px solid #bf4f48;
+}
+.three .seach select option span{
+    padding-left: 100px;
+    height:27px;
+    text-indent: 20px;
+}
+.three .seach button{
+    background:#bf4f48;
+    border: 1px solid #bf4f48;
+    color: #fff;
+}
+
+
+
+
+
+
+.four{
+    background:#f7f7f7;
+    height:605px;
+}
+.four .main{
+    margin: 0 auto;
+     background:#f7f7f7;
+    width: 986px;
+
+}
+.four figure{
+    margin-top: 100px;
+    width: 217px;
+    float:left;
+    text-align:center;
+}
+.four figure:hover figcaption{
+    margin-top: -402px;
+    width: 250px;
+    letter-spacing:38px;
+    // position:relative;
+}
+.four figure:hover img{
+    margin-top: 60px;
+}
+.four .bj1,.bj2,.bj3{
+    margin-right: 36px;
+}
+.four figure figcaption{
+    margin-top: 5px;
+    font-size:16px;
+    color:#333333;
+}
+.four figure p{
+    margin-top: 10px;
+    font-size:14px;
+    color:#818281;
 }
