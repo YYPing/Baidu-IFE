@@ -8,7 +8,6 @@
 .main{
     width: 1280px;
     margin: 0 auto;
-    // position: absolute;
 
 }
 ul li{
@@ -78,13 +77,10 @@ a:active{
     float: left;
     color: #787b83;
     margin-right: 45px;
-    // height:56px;
 }
 .header nav ul li a{
     color: #787b83;
-    // text-align: top;
     vertical-align: top;
-    // line-height:56px;
 }
 .header nav ul li a:hover{
     color: #e74f4d;
@@ -93,8 +89,6 @@ a:active{
 }
 .header nav ul li a img{
     margin-right: 5px;
-    // padding-top: 5px;
-    // height:19px;
 }
  /* 导航 */
 
@@ -103,11 +97,7 @@ a:active{
 .banner{
     height:690px;
     background:url(img/banner50.png);
-     // opacity:0.5;
-    // position:relative;
 
-    // margin-top:56px;
-    // margin: 0 auto;
 }
 .banner .text{
     position:absolute;
@@ -133,7 +123,6 @@ a:active{
     height:65px;
     display: block;
     text-align:center;
-    // vertical-aligen:middle;
     line-height: 65px;
 }
 /* banner */
@@ -198,11 +187,7 @@ a:active{
     background:url(img/three50.png);
     text-align:center;
     margin-top: 0;
-     // opacity:0.5;
-    // position:relative;
 
-    // margin-top:56px;
-    // margin: 0 auto;
 }
 .three .main{
     background:url(img/three.png);
@@ -212,14 +197,11 @@ a:active{
 .three .text{
     margin: 0 auto;
     margin-bottom: 52px;
-    // margin-top: 52px;
 
 }
 .three span{
-    // display: block;
     font-size:21px;
     color: #fff;
-    // padding-top: 52px;
 }
 .three i{
     display: block;
@@ -230,7 +212,6 @@ a:active{
     margin-top: 10px;
 }
 .three p{
-    // display: block;
     font-size:12px;
     color: #fff;
     margin-top:20px;
@@ -240,9 +221,13 @@ a:active{
     width:1028px;
     height:36px;
     margin-top: 52px;
-    // background:#000;
 }
-.three .seach select,button{
+.three .seach select{
+    width: 236px;
+    height: 36px;
+    margin-right:30px;
+}
+.three .seach button{
     width: 236px;
     height: 36px;
     margin-right:30px;
@@ -265,33 +250,35 @@ a:active{
     border: 1px solid #bf4f48;
     color: #fff;
 }
+/* 第三层 */
 
 
 
 
-
-
+/* 第四层 */
 .four{
     background:#f7f7f7;
     height:605px;
 }
 .four .main{
     margin: 0 auto;
-     background:#f7f7f7;
+    background:#f7f7f7;
     width: 986px;
-
 }
 .four figure{
     margin-top: 100px;
     width: 217px;
     float:left;
     text-align:center;
+
+}
+.four figure img{
+    border:1px solid #e0e0e0;
 }
 .four figure:hover figcaption{
     margin-top: -402px;
     width: 250px;
     letter-spacing:38px;
-    // position:relative;
 }
 .four figure:hover img{
     margin-top: 60px;
@@ -308,4 +295,344 @@ a:active{
     margin-top: 10px;
     font-size:14px;
     color:#818281;
+}
+/* 第四层 */
+
+
+/* 第五层 */
+.five{
+    // margin-top: 0;
+    // background:#f7f7f7;
+}
+.five .main{
+    margin: 0 auto;
+    background:#f7f7f7;
+    width: 1280px;
+}
+.five .left{
+    float:left;
+    background: url(img/bj7.png);
+    width:852px;
+    height:566px;
+    padding-top:1px;
+}
+.five .left p,b{
+    color:#fff;
+    text-align:center;
+    display: block;
+    margin:0 auto;
+}
+.five .left .xinshijie{
+    font-size:50px;
+    margin-top: 150px;
+}
+.five .left b{
+    margin-top: -40px;
+    font-size:158px;
+}
+.five .left .xinshijie1{
+    margin-top: -10px;
+    font-size:22px;
+}
+.five .right{
+    float:right;
+    width:290px;
+    padding:0px 69px;
+    background:#fff;
+    height: 567px;
+    text-align:center;
+
+}
+.five .right>p{
+    width:290px;
+    text-align:center;
+}
+
+.five .right .title{
+    margin-top: 190px;
+    font-size:18px;
+}
+.five .right .title span{
+    font-size:18px;
+    color:#e7504d;
+}
+.five .right .right-text{
+    line-height:36px;
+    font-size:12px;
+    text-align:left;
+    margin-top:30px;
+    color:#aaaaaa;
+}
+.five .right .more{
+    height: 33px;
+    width:105px;
+    margin-top: 50px;
+    background:#fff;
+    color:#e7504d;
+    border:1px solid #e7504d;
+}
+.five .right ul{
+    margin:25px 0 0 108px;
+}
+.five .right ul li{
+    float: left;
+    margin-right: 15px;
+    border-radius: 12px;
+    width:12px;
+    height:12px;
+    border:1px solid #929293;
+}
+.five .right ul li:hover{
+    background:#929293;
+}
+/* 第五层 */
+
+
+
+
+/* 第六层 */
+.six{
+    // background:#f7f7f7;
+}
+.six .main{
+    margin: 0 auto;
+    background:#f7f7f7;
+    width: 1280px;
+}
+.six .left,.center,.right{
+    float: left;
+    height:349px;
+}
+.six .left{
+    background:#e74f4d;
+}
+.six .left{
+    background:#e74f4d;
+    width:425px;
+    text-align:center;
+}
+.six .left{
+    padding-top:172px;
+}
+.six .left span{
+    font-size:21px;
+    color: #fff;
+}
+.six .left i{
+    display: block;
+    margin: 0 auto;
+    width:30px;
+    height:3px;
+    background: #fff;
+    margin-top: 25px;
+    margin-bottom:25px;
+}
+.six .left .more{
+    height: 44px;
+    width:170px;
+    background:#e7504d;
+    color:#fff;
+    border:1px solid #fff;
+}
+.six .left .more:hover{
+    height: 44px;
+    width:170px;
+    background:#fff;
+    color:#e7504d;
+    border:1px solid #fff;
+}
+.six .center{
+    text-align:center;
+    padding-top:172px;
+    background:#fff;
+    width:424px;
+}
+.six .center span{
+    font-size:21px;
+    color: #333;
+}
+.six .center i{
+    display: block;
+    margin: 0 auto;
+    width:30px;
+    height:3px;
+    background: #aaa;
+    margin-top: 25px;
+    margin-bottom:25px;
+}
+.six .center .more{
+    height: 44px;
+    width:170px;
+    background:#fff;
+    color:#e7504d;
+    border:1px solid #e7504d;
+}
+.six .center .more:hover{
+    height: 44px;
+    width:170px;
+    background:#e7504d;
+    color:#fff;
+    border:1px solid #fff;
+}
+.six .right{
+    background:url(img/bj8.png);
+    height:521px;
+    width:431px;
+}
+/* 第六层 */
+
+
+
+
+
+/* 第七层 */
+.seven .main{
+    padding-top:120px;
+}
+.seven .text{
+    margin: 0 auto;
+    margin-bottom: 52px;
+    text-align:center;
+}
+.seven .text span{
+    font-size:21px;
+    color: #333;
+}
+.seven .text i{
+    display: block;
+    margin: 0 auto;
+    width:30px;
+    height:3px;
+    background: #e7504d;
+    margin-top: 10px;
+}
+.seven .text p{
+    font-size:12px;
+    color: #aaaaaa;
+    margin-top:20px;
+}
+.seven .left{
+    float: left;
+    width:288px;
+    margin-left: 140px;
+}
+.seven .left .xieyi{
+    margin-bottom: 50px;
+}
+.seven .left .xieyi .title{
+    color:#666160;
+    font-size:14px;
+    font-weight:bold;
+}
+.seven .left .xieyi .text{
+    color:#9d9b9a;
+    font-size:12px;
+    margin-top: 27px;
+    margin-bottom: 0px;
+    text-align:left;
+}
+.seven .left .xieyi .more{
+    color:#959291;
+    float: right;
+
+}
+.seven .right{
+    margin-right: 140px;
+    float: right;
+}
+.seven .right ul{
+    width:640px;
+}
+.seven .right li{
+    float: left;
+    background:#ededef;
+    height:19px;
+    width:280px;
+    vertical-align: middle;
+    padding:15px;
+    margin-bottom: 15px;
+}
+.seven .right li.lir{
+    margin-right: 18px;
+}
+.seven .right li>span{
+    color: #6c6868;
+}
+.seven .right li input{
+    border:0px;
+    background:#ededef;
+}
+.seven .right .message{
+    width:610px;
+    height:120px;
+}
+.seven .right .message textarea{
+    height:90px;
+    width:609px;
+    border:0px;
+    background:#ededef;
+}
+.seven .right .button{
+    width:610px;
+    height:19px;
+    text-align:center;
+}
+/* 第七层 */
+
+
+
+
+
+/* 页底 */
+footer{
+    background:#32353e;
+    text-align:center;
+}
+footer .footer1{
+    padding-top:90px;
+    padding-bottom: 70px;
+}
+
+footer .footer1 .lianxi{
+    font-size:21px;
+    color: #fff;
+    font-family:"黑体"
+}
+footer .footer1 .footer1-text{
+    font-family:"宋体";
+    font-size:12px;
+    color: #fff;
+}
+footer .footer1 .email{
+    // width:518px;
+    margin-top: 31px;
+}
+footer .footer1 .email input{
+    border:0px;
+    background:#fff;
+    padding:15px;
+    color: #aaaaaa;
+    width:400px;
+}
+footer .footer1 .email button{
+    padding:15px 25px;
+    border:0px;
+    color: #fff;
+    background:#6f7178;
+    margin-left: -5px;
+}
+footer .footer1 .email ul{
+    margin-top: 37px;
+}
+footer .footer1 .email ul li{
+    // float: left;
+    display:inline;
+    margin-right: 27px;
+}
+footer .footer2{
+    background:#303038;
+}
+footer .footer2 p{
+    color:#fff;
+    margin:24px 100px;
 }
