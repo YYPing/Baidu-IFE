@@ -4,31 +4,17 @@
     <meta charset="UTF-8" />
     <title>任务十：Flexbox 布局练习</title>
     <style type="text/css">
+        *{
+            margin:0;
+            padding:0;
+        }
         .outer{
-            display: flex;
             padding:20px;
         }
         .outer>div{
             padding:20px;
          }
-/*       .one{
-            height:120px;
-            border:1px solid #f00;
-        }
-        .two{
-            height:100px;
-            border:1px solid #f00;
-        }
-        .three{
-            height:40px;
-            border:1px solid #f00;
-        }
-        .four{
-            height:200px;
-            border:1px solid #0f0;
-        } */
         .iner{
-            /* background-color: #00f; */
             border:1px solid #f00;
             width: 150px;
         }
@@ -49,19 +35,36 @@
         }
 
         @media(max-width:640px){
+            .outer{
+                display:flex;
+                display:-webkit-flex;
+                flex-wrap:wrap;
+            }
+            .outer>div:nth-child(1){
+                -webkit-order:1;
+                order:1;
+            }
+            .outer>div:nth-child(2){
+                -webkit-order:1;
+                order:1;
+            }
+            .outer>div:nth-child(3){
+                -webkit-order:2;
+                order:2;
+            }
             .outer>div:nth-child(4){
-                -webkit-order:-1;
-                order:-1;
+                -webkit-order:0;
+                order:0;
             }
             .outer>div{
                 float: left;
                 padding:20px;
-                /* background-color: white; */
          }
-
         }
         @media(min-width:640px){
             .outer{
+                display: flex;
+                align-items:center;
                 -webkit-justify-content:space-between;
                 justify-content:space-between;
             }
