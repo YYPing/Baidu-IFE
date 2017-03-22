@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>任务四：基础JavaScript练习（一）</title>
+    <style type="text/css">
+        .txt{
+            background:#e667f5;
+            color:#fff;
+            padding: 5px;
+            width:auto;
+            height:auto;
+            float:left;
+            margin: 5px;
+            border-radius:5px;
+        }
+    </style>
+</head>
+<body>
+    <input id="text" type="text" name="">
+    <input id="q" type="button" name="" value="左侧入">
+    <input id="w" type="button" name="" value="右侧入">
+    <input id="e" type="button" name="" value="左侧出">
+    <input id="r" type="button" name="" value="右侧出">
+    <div id="textp">
+<p></p>
+    </div>
+</body>
+<script>
+
+</script>
+<script>
+
+
+    document.getElementById("w").onclick = function(){
+        var text = document.getElementById('text').value;
+        var div = document.getElementById('textp');
+// 创建一个div元素
+        var p = document.createElement("div");
+// 设置新的div元素的class
+        p.setAttribute("class","txt");
+        p.innerHTML = text;
+        div.appendChild(p);
+        div.insertBefore(p,div.childNodes[0]);
+        document.getElementById('text').value = "";
+    }
+        document.getElementById("q").onclick = function(){
+        var text = document.getElementById('text').value;
+        var div = document.getElementById('textp');
+// 创建一个div元素
+        var p = document.createElement("div");
+// 设置新的div元素的class
+        p.setAttribute("class","txt");
+        p.innerHTML = text;
+        div.appendChild(p);
+        document.getElementById('text').value = "";
+        // div.insertBefore(p,div.childNodes[0]);
+
+    }
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
